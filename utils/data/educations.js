@@ -9,6 +9,6 @@ export const educations = [
     id: 2,
     title: "Data Science and AI",
     duration: "Dec 2020 - June 2021",
-    institution: "Social Prachar Hyderabad, TS",
-  }
+    institution: "Social Prachar Hyderabad,TS",
+  }
 ]

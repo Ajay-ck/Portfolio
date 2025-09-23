@@ -20,6 +20,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/profile.png" type="image/png" />
+        <link rel="shortcut icon" href="/profile.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/profile.png" />
         <title>AJAY C K - Conversational AI Engineer</title>
         <meta
           name="description"

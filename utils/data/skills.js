@@ -1,13 +1,16 @@
 export const skillsData = [
+  "AI Solution Architecture",
+  "Technical Mentorship",
+  "Business Requirement Analysis",
   "Chatbot Development",
-  "Generative AI",
-  "NLP",
-  "Azure AI Services",
+  "Prompt Engineering",
   "Python",
-  "SQL",
-  "ASP.NET",
+  "Retrieval Augmented Generation",
+  "AI Agent",
+  "API Development",
+  "Meta API",
   "Langchain",
-  "OpenAI API",
+  "LLM",
 ];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

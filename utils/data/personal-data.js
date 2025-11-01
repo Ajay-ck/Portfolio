@@ -3,7 +3,7 @@ export const personalData = {
   profile: "/profile.png",
   designation: "Conversational AI Engineer",
   description:
-    "My name is AJAY CK. I am a professional Conversational AI Engineer with expertise in building intelligent chatbots and AI-driven solutions. I have comprehensive hands-on experience with Azure AI services, OpenAI, and various chatbot frameworks. I'm passionate about leveraging AI to create seamless conversational experiences and optimize business workflows. My technical foundation includes Python, SQL, C#, and Java, with specialized knowledge in NLP, ML, and Langchain. I excel at leading end-to-end development projects and mentoring junior developers. I'm always eager to explore new AI technologies and solve complex challenges in the conversational AI space",
+    "I'm Ajay CK, a Conversational AI Engineer passionate about helping businesses integrate AI to transform workflows and decision-making. I specialize in designing and deploying AI-powered products across diverse domains — from intelligent chatbots to automation APIs. With hands-on experience in RAG-based systems, API development, and end-to-end AI project management, I bridge the gap between business goals and technology, turning ideas into scalable, real-world solutions.",
   email: "ajaychekavarck@gmail.com",
   phone: "+919544643754",
   address: "Tirur, Kerala, India",

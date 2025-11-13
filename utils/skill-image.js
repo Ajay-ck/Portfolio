@@ -83,13 +83,21 @@ import sqlalchemy from "../app/assets/svg/skills/sqlalchemy.svg";
 import fastapi from "../app/assets/svg/skills/fastapi.svg";
 import sql from "../app/assets/svg/skills/sql.svg";
 import asp from "../app/assets/svg/skills/asp.svg";
-import nlp from "../app/assets/svg/skills/nlp.svg";
+import images from "../app/assets/svg/skills/images.svg";
 import azureAi from "../app/assets/svg/skills/azure.svg";
 import langchain from "../app/assets/svg/skills/langchain.svg";
 import generativeai from "../app/assets/svg/skills/generativeai.svg";
 import openai from "../app/assets/svg/skills/openai.svg";
 import chatbot from "../app/assets/svg/skills/chatbot.svg";
-
+import retrieval from "../app/assets/svg/skills/retrieval.svg";
+import rag from "../app/assets/svg/skills/rag.svg";
+import aiagent from "../app/assets/svg/skills/aiagent.svg";
+import Meta_fav from "../app/assets/svg/skills/Meta_fav.svg";
+import llm from "../app/assets/svg/skills/llm.svg";
+import promptengineeringlogo from "../app/assets/svg/skills/promptengineeringlogo.svg";
+import ai_solution from "../app/assets/svg/skills/ai_solution.svg";
+import mentor from "../app/assets/svg/skills/mentor.svg";
+import bbb from "../app/assets/svg/skills/bbb.svg";
 
 
 export const skillsImage = (skill) => {
@@ -107,12 +115,38 @@ export const skillsImage = (skill) => {
       return illustrator;
     case "adobe xd":
       return adobeXd;
+    case "ai agent":
+      return aiagent;
+     case "retrieval augmented generation":
+      return rag;
     case "after effects":
       return afterEffects;
     case "css":
       return css;
+    case "technical mentorship":
+      return mentor;
     case "angular":
       return angular;
+
+    case "ai solution architecture":
+      return ai_solution;
+
+    case "business requirement analysis":
+      return bbb;
+
+    case "meta api":
+      return Meta_fav;
+
+    case "llm":
+      return llm;
+    case "api development":
+      return images;
+
+    case "prompt engineering":
+      return promptengineeringlogo;
+    case "retrieval augmented generation":
+      return retrieval;
+
     case "javascript":
       return javascript;
     case "next js":

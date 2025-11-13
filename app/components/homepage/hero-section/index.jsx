@@ -1,8 +1,6 @@
 // @flow strict
 
-import * as React from 'react';
 import { personalData } from "@/utils/data/personal-data";
-import { skillsData } from '@/utils/data/skills';
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
@@ -92,28 +90,37 @@ function HeroSection() {
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
-                {skillsData.map((skill, i) => (
-                  <React.Fragment key={i}>
-                    <span className="text-amber-300">{skill}</span>
-                    {i !== skillsData.length - 1 && (
-                      <span className="text-gray-400">{"', '"}</span>
-                    )}
-                  </React.Fragment>
-                ))}
+                <span className="text-amber-300">Chatbot Development</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Generative AI</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">AI Agents</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Azure AI Services</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Python</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">SQL</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">ASP.NET</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Langchain</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">LLM</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">projectArchitect:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">smartWorker:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">strategicThinker:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">quickLearner:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">domainIntegrator:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">problemSolver:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
@@ -128,12 +135,12 @@ function HeroSection() {
               </div>
               <div>
                 <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">projectArchitect</span>
+                <span className="mr-2 text-white">smartWorker</span>
                 <span className="text-amber-300">&amp;&amp;</span>
               </div>
               <div>
                 <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">strategicThinker</span>
+                <span className="mr-2 text-white">problemSolver</span>
                 <span className="text-amber-300">&amp;&amp;</span>
               </div>
               <div>
